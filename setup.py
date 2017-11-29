@@ -17,6 +17,6 @@ setup(
     license = "GPL-2.0",
     keywords = "salmonella",
     url = "https://github.com/estrain/SeqSero",
-    packages=['seqseqo',],
+    packages=['seqsero',],
 
 )
