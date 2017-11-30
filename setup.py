@@ -1,5 +1,4 @@
-import os
-from setuptools import setup, find_packages
+from distutils.core import setup
 
 setup(
     name = "seqsero",
@@ -10,6 +9,10 @@ setup(
     license = "GPL-2.0",
     keywords = "salmonella",
     url = "https://github.com/estrain/SeqSero",
-    packages=find_packages(),
-
+    packages=['seqsero'],
+    scripots['scripts/SeqSero.py'],
+    entry_points={
+        'console_scripts': ['SeqSero = seqsero.SeqSero:main']
+    },
+    package_dir = {'seqsero': 'scripts'},
 )
