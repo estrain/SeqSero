@@ -10,7 +10,7 @@ setup(
     keywords = "salmonella",
     url = "https://github.com/estrain/SeqSero",
     packages=['seqsero'],
-    scripots['scripts/SeqSero.py'],
+    scripts=['scripts/SeqSero.py'],
     entry_points={
         'console_scripts': ['SeqSero = seqsero.SeqSero:main']
     },
